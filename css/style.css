@@ -66,11 +66,10 @@ img {
 }
 
 .profile-image img {
-	width: 90px;
+	width: auto;
 	height: 90px;
 	border-radius: 50%;
 }
-
 
 .profile-user-settings,
 .profile-stats,
@@ -98,12 +97,10 @@ img {
 	padding: 0 2.4rem;
 	margin-left: 2rem;
 	cursor: pointer;
-	background: white;
-}
-.profile-edit-btn a{
-	text-transform: none;
-	text-decoration: none;
 	color: white;
+}.profile-edit-btn a{
+	color: white;
+	text-decoration: none;
 }
 
 .profile-settings-btn {
