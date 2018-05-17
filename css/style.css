@@ -71,7 +71,6 @@ img {
 	border-radius: 50%;
 }
 
-
 .profile-user-settings,
 .profile-stats,
 .profile-bio {
@@ -98,12 +97,10 @@ img {
 	padding: 0 2.4rem;
 	margin-left: 2rem;
 	cursor: pointer;
-	background: white;
-}
-.profile-edit-btn a{
-	text-transform: none;
-	text-decoration: none;
 	color: white;
+}.profile-edit-btn a{
+	color: white;
+	text-decoration: none;
 }
 
 .profile-settings-btn {
