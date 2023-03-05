@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<style>
+    body, html, main, main > div {
+  height: 100%;
+}
+.page {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+#first {
+    background-image: linear-gradient(180deg, rgba(255,255,255,0) 20%, rgba(0,0,0,1)90%), 
+            url(kevin.jpg);
+  background-repeat:no-repeat;
+  background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+}
+#second {
+  background-image: linear-gradient(0deg, rgba(255,255,255,0) 20%, rgba(0,0,0,1)90%), url(page2.jpg);
+  background-repeat:no-repeat;
+  background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+}
+#third {
+  background-image: linear-gradient(0deg, rgba(255,255,255,0) 20%, rgba(0,0,0,1)90%), url(page3.png);
+  background-repeat:no-repeat;
+  background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+}
+#fourth{
+    background-image: linear-gradient(180deg, rgba(255,255,255,0) 20%, rgba(0,0,0,1)90%), url(end.jpg);
+  background-repeat:no-repeat;
+  background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+}
+.position-set{
+    /* bottom: 0 !important; */
+    position: absolute;
+}
+.bottom-fix{
+    bottom: 0 !important;
+}
+.button-open {
+    color: white;
+    font-size: 20px;
+    background: rgba(180,180,180,0.4) !important;
+    padding:10px;
+    border-radius:20px;
+    border: 2px solid white;
+}
+.card-party{
+    background: rgba(180,180,180,0.4) !important;
+    color:white;
+    border-radius:10px;
+    border: 2px solid white;
+}
+</style>
+<body>
+        <main>
+                <div class="page" id="first">
+                  <div class="position-set bottom-fix pb-4 mb-3">
+                    <div class="pl-5 ">
+                            <h5 class="text-white">
+                                    You're invited
+                                </h5>
+                                <h2 class="text-white pb-5">
+                                    KEVIN BIRTHDAY PARTY
+                                </h2>
+        
+                    </div>    
+                        <div class="d-flex justify-content-center">
+                            <a class="d-flex justify-content-center text-center button-open" href="#second">
+                                    &nbsp;&nbsp; OPEN &nbsp;&nbsp;
+                            </a>
+                        </div>
+                  </div>
+                </div>
+                <div class="page" id="second">
+                    <div class="position-set p-4">
+                                <h3 class="text-white" data-aos="flip-up">
+                                  SAVE THE DATE!
+                                </h3>
+                                <div class="card-party p-4" data-aos="fade-right">
+                                    <h5 class="pb-2 pt-2"><i class="fa fa-calendar"></i>&nbsp;&nbsp;&nbsp;MONDAY, 13 MARCH 2023&nbsp;</h5>
+                                    <h5 class="pb-2 pt-2"><i class="fa fa-clock"></i>&nbsp;&nbsp;&nbsp;MONDAY, 13 MARCH 2023&nbsp;</h5>
+                                    <h5 class="pt-2"><i class="fa fa-location-dot"></i>&nbsp;&nbsp;&nbsp;MONDAY, 13 MARCH 2023&nbsp;</h5>
+                                </div>
+                                <div class="maps pt-4 pb-5" data-aos="zoom-in-up">
+                                        <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6888771584663!2d106.85935231535117!3d-6.172394662206344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5a1f40c9d91%3A0x9cca2a5fa4cccf30!2s86%20Coffee%20Bakery!5e0!3m2!1sid!2sid!4v1678019212770!5m2!1sid!2sid"
+                                        width="100%" height="360" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                    </div>
+                </div>
+                <div class="page" id="third">
+                    <div class="position-set p-4">
+                      <div data-aos="flip-up">
+                            <h3 class="text-white">KEVIN'S</h3>
+                            <h3 class="text-white">BIRTHDAY PARTY</h3><br>
+                            <h5 class="text-white">13/04/2023</h5><br>
+                            <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                
+                      </div>
+                        <div class="card-party p-3 pt-4" data-aos="fade-right">
+                            <form class="form-group" action="">
+                                <input type="text" class="form-control" placeholder="name"><br>
+                                <input type="text" class="form-control" placeholder="number of guest"><br>
+                                <div  style="background: white; color:black !important;border-radius:10px;" class="p-3">
+                                        <h3>RSVP</h3>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="satu" id="satu" value="satu" checked>
+                                            <label class="form-check-label" for="satu">Yes, I will come</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="dua" id="dua" value="dua">
+                                            <label class="form-check-label" for="dua">I'm still undecided</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="tiga" id="tiga" value="tiga">
+                                            <label class="form-check-label" for="tiga">Sorry, I can't make it</label>
+                                        </div>
+                                </div>
+                                <br />
+                                <button type="submit" class="btn btn-light">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="page" id="fourth">
+                    <div class="position-set p-4 text-white pt-5 mt-5">
+                        <div class="pt-5 mt-5" style="width: 100%;
+                        height: 25%;
+                        bottom: 0;
+                        display: block;
+                        position: relative;">
+                            
+                            <p class="pt-5 mt-5">IN THE END, IT'S NOT THE YEARS I YOUR LIFE THAT COUNT. IT'S THE LIFE OF YOUR YEARS.</p>
+                            <h1>- ABRAHAM LINCOLN</h1>
+                        </div>
+                    </div>
+                </div>
+              </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"
+        integrity="sha512-2bMhOkE/ACz21dJT8zBOMgMecNxx0d37NND803ExktKiKdSzdwn+L7i9fdccw/3V06gM/DBWKbYmQvKMdAA9Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+         AOS.init();
+        $(".page").click(function () {
+        var offset = this.id === "third" ? 0 : Math.round($(this).outerHeight() + $(this).offset().top);
+        $("html, body").stop().animate({scrollTop:offset}, 600, 'swing', function() { 
+        // alert("Finished animating");
+        });;
+        });
+    </script>
+</html>
